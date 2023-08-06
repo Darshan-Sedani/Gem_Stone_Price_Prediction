@@ -1,4 +1,5 @@
 import sys
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 from dataclasses import dataclass
 
 import numpy as np 

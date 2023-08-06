@@ -11,6 +11,7 @@ from src.utils import evaluate_model
 from dataclasses import dataclass
 import sys
 import os
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 
 @dataclass 
 class ModelTrainerConfig:

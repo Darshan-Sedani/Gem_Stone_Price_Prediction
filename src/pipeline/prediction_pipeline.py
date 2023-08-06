@@ -1,5 +1,6 @@
 import sys
 import os
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import load_object

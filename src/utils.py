@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 import pickle
 import numpy as np 
 import pandas as pd

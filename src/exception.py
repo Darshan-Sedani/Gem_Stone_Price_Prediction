@@ -1,5 +1,6 @@
 import sys
 from src.logger import logging
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
