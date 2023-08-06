@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '../src')
+sys.path.append(r'D:\Projects\House_Price_Prediction')
 from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
@@ -21,11 +21,13 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__=='__main__':
+'''
+if __name__ == '__main__':
     logging.info("Logging has started")
 
     try:
-        a=1/0
-    except CustomException as e:
-        logging.info("Error has occured")
-        raise CustomException(e,sys)
+        a = 1 / 0
+    except Exception as e:
+        logging.info("Division by Zero")
+        raise CustomException(e, sys)
+'''
