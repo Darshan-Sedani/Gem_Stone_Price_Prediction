@@ -15,7 +15,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='housepriceprediction',
+name='gem_price_prediction',
 version='0.0.1',
 author="Darshan Sedani",
 package=find_packages(),
